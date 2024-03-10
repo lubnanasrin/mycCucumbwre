@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user can sign up",
+        "description": "",
+        "id": "this-is-a-signup-feature;verify-user-can-sign-up",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8335106000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open application",
+            "match": {
+              "location": "StepDeffinations.open_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127658500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click signup link",
+            "match": {
+              "location": "StepDeffinations.click_signup_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 290566600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Username",
+            "match": {
+              "location": "StepDeffinations.enter_Username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 142331900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter Password",
+            "match": {
+              "location": "StepDeffinations.enter_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2244611300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Signup button",
+            "match": {
+              "location": "StepDeffinations.click_Signup_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is a signup feature",
+    "description": "",
+    "id": "this-is-a-signup-feature",
+    "keyword": "Feature",
+    "uri": "Signup.feature"
+  }
+]
